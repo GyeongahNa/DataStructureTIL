@@ -87,7 +87,7 @@ BTreeNode* BSTRemove(BTreeNode** pRoot, BTData target);
 
 ### 이진탐색트리의 구현
 
-* **연결리스트 기반 구현**
+* [**연결리스트 기반 구현**](https://github.com/GyeongahNa/DataStructureTIL/blob/main/%ED%8A%B8%EB%A6%AC/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89%ED%8A%B8%EB%A6%AC/BinarySearchTree.c)
     * 삽입, 탐색: 삽입(탐색)하고자 하는 데이터가 현재 노드의 키보다 작으면 왼쪽으로, 크면 오른쪽으로 이동
     * 삭제: 삭제할 데이터의 위치를 탐색한 뒤, 다음 경우에 따라 다르게 처리
         * 삭제 노드가 단말노드인 경우
