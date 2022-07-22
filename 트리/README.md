@@ -64,3 +64,32 @@ void HDelete(Heap* ph);
 * [**배열 기반 구현**](https://github.com/GyeongahNa/DataStructureTIL/blob/main/%ED%8A%B8%EB%A6%AC/%ED%9E%99/Heap.c)
     * 삽입: 완전이진트리의 가장 마지막 위치에 노드를 삽입하고, 부모 노드와 비교해가면서 적절한 위치 찾기
     * 삭제: 루트 노드 제거, 가장 마지막 위치에 있는 노드로 루트 노드를 채운 후, 자식 노드들과 비교해가면서 적절한 위치 찾기
+<br></br>
+
+## 이진탐색트리
+
+이진탐색트리의 조건
+
+[x] 이진 탐색 트리의 노드에 저장된 키는 유일하다.
+[x] 루트 노드의 키가 왼쪽 서브트리를 구성하는 어떠한 노드의 키보다 크다.
+[x] 루트 노드의 키기 오른쪽 서브트리를 구성하는 어떠한 노드의 키보다 작다.
+[x] 왼쪽 서브트리와 오른쪽 서브트리 모두 이진탐색트리이다.
+
+
+### ADT
+
+```
+void BSTInit(BTreeNode* pRoot);
+void BSTInsert(BTreeNode** pRoot, BTData data);
+BTreeNode* BSTSearch(BTreeNode* bst, BTData target);
+BTreeNode* BSTRemove(BTreeNode** pRoot, BTData target);
+```
+
+### 이진탐색트리의 구현
+
+* **연결리스트 기반 구현**
+    * 삽입, 탐색: 삽입(탐색)하고자 하는 데이터가 현재 노드의 키보다 작으면 왼쪽으로, 크면 오른쪽으로 이동
+    * 삭제: 삭제할 데이터의 위치를 탐색한 뒤, 다음 경우에 따라 다르게 처리
+        * 삭제 노드가 단말노드인 경우
+        * 삭제 노드가 한 개의 서브트리를 갖는 경우
+        * 삭제 노드가 두 개의 서브트리를 갖는 경우
