@@ -10,5 +10,5 @@
 |[**힙정렬(Heap sort)**](https://github.com/GyeongahNa/DataStructureTIL/blob/main/%EC%A0%95%EB%A0%AC/Heapsort/HeapSort.c)|O(nlogn)|O(nlogn)|O(nlogn)|X|O|
 |[**병합정렬(Merge sort)**](https://github.com/GyeongahNa/DataStructureTIL/blob/main/%EC%A0%95%EB%A0%AC/MergeSort/MergeSort.c)|O(nlogn)|O(nlogn)|O(nlogn)|O|X|
 |[**퀵정렬(Quick sort)**](https://github.com/GyeongahNa/DataStructureTIL/blob/main/%EC%A0%95%EB%A0%AC/QuickSort/QuickSort.c)|O(nlogn)|O(nlogn)|O(n^2)|X|O|
-|[**기수정렬(Radix sort)**](https://github.com/GyeongahNa/DataStructureTIL/tree/main/%EC%A0%95%EB%A0%AC/RadixSort)|O(n)|O(n)|O(n)|O|X|
+|[**기수정렬(Radix sort)**](https://github.com/GyeongahNa/DataStructureTIL/blob/main/%EC%A0%95%EB%A0%AC/RadixSort/RadixSort.c)|O(n)|O(n)|O(n)|O|X|
 
