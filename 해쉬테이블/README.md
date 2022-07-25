@@ -46,4 +46,4 @@ key를 바탕으로 value를 바로 탐색하려면, key를 배열의 인덱스�
 * **닫힌 어드레싱 방법(Closed addressing method)**
     * **체이닝**
         * 같은 해쉬 함수 값을 가지는 slot(key, value)들을 연결리스트로 연결 방식
-        * [**체이닝을 이용한 해시테이블 구현**]()
+        * [**체이닝을 이용한 해시테이블 구현**](https://github.com/GyeongahNa/DataStructureTIL/blob/main/%ED%95%B4%EC%89%AC%ED%85%8C%EC%9D%B4%EB%B8%94/HashTable.c)
